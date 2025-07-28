@@ -10,7 +10,7 @@ os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 # 🔒 Google Cloud Scopes (z. B. vollständiger Zugriff)
 SCOPES = ["https://www.googleapis.com/auth/cloud-platform"]
 
-def main():
+def login():
     creds = None
 
     # 📦 Bereits gespeicherte Token laden
@@ -37,4 +37,4 @@ def main():
     print("🔑 Zugriffstoken:", creds.token)
 
 if __name__ == "__main__":
-    main()
+    login()
