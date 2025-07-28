@@ -1,10 +1,18 @@
+Header, Footer {
+    background: #00ffd5ff;
+    color: white;
+}
+
+
+
+
 #output_container {
     height: 70%;
     border: solid gray;
     padding: 1 2;
     overflow-y: auto;  /* vertikales Scrollen erlauben */
     background: #1e1e1e;
-    color: white;
+    color: #ff8c00ff;
 }
 
 #output {
@@ -14,16 +22,60 @@
 Button {
     margin: 1 0 0 2;
     width: 30;
-    background: #007acc;
-    color: white;
+    background: #1f1f1fff;
+    color: #33ff00ff;
     border: none;
 }
 
 Button:hover {
-    background: #005a9e;
+    background: #ffaa00ff;
 }
 
-Header, Footer {
-    background: #007acc;
+
+
+
+#projects_output_container {
+    height: 70%;
+    border: solid gray;
+    padding: 1 2;
+    overflow-y: auto;  /* vertikales Scrollen erlauben */
+    background: #1e1e1e;
+    color: #ff8c00ff;
+}
+
+#projects_output {
+    padding: 1 0;
+}
+
+#load_projects {
+    margin: 1 0 0 2;
+    width: 30;
+    background: #1f1f1fff;
+    color: #33ff00ff;
+    border: none;
+}
+
+#load_projects:hover {
+    background: #ffaa00ff;
+}
+
+
+
+#home_output_container {
+    height: 70%;
+    border: solid gray;
+    padding: 1 2;
+    overflow-y: auto;  /* vertikales Scrollen erlauben */
+    background: #1e1e1e;
     color: white;
+}
+
+#home_output {
+    padding: 1 0;
+}
+
+
+#output_log {
+    background: #1e1e1eff;
+    color: #ff7b00ff;
 }
