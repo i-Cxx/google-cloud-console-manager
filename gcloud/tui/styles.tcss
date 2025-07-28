@@ -1,0 +1,29 @@
+#output_container {
+    height: 70%;
+    border: solid gray;
+    padding: 1 2;
+    overflow-y: auto;  /* vertikales Scrollen erlauben */
+    background: #1e1e1e;
+    color: white;
+}
+
+#output {
+    padding: 1 0;
+}
+
+Button {
+    margin: 1 0 0 2;
+    width: 30;
+    background: #007acc;
+    color: white;
+    border: none;
+}
+
+Button:hover {
+    background: #005a9e;
+}
+
+Header, Footer {
+    background: #007acc;
+    color: white;
+}

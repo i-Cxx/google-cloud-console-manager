@@ -1,0 +1,16 @@
+.env
+__pycache__
+dist
+build
+twine
+keys
+creds.json
+token.json
+token.pickle
+projekt/keys/
+*.pickle
+*.json
+.pypirc*
+
+.pypirc
+.pypirc_token
